@@ -18,7 +18,7 @@ body{
     font-family:'Courier New', Courier, monospace
 } */
  #intro{
-    margin-top: 70px;
+
     height: auto;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
@@ -106,7 +106,7 @@ hr{
 }
 
 .vr{
-    border-left: 1px solid #080808;
+    border-left: 2px solid #ffffff;
     height: 15px;
     margin-top: 5px;
     margin: 5px 10px;

@@ -1,87 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="m-4">
-   <div class=" mt-4">
-       <div class="container d-flex justify-content-cneter">
-           <div class="d-flex bd-highlight">
-               <div id="Image">
-                   <img src="images/img.png" alt="logo" class="logo rounded-circle" style="height: 300px; width: 300px;">
-               </div>
-               <div class="p-2 bd-highlight mx-4 flex-grow-1" id="intro">
-                   <h2 class="intro_head">Hi, I'm Tafsirul Islam Shafin!</h2>
-                   <p class="intro_body">
-                       I'm a university student passionate about coding and bringing ideas to life through projects. I have experience in IoT and software development and a strong interest in robotics and software solutions. I'm always eager to learn and explore new technologies to enhance my skills and contribute meaningfully.
-                   </p>
-               </div>
+   <div class="mt-4">
+       <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-center">
+           <div id="Image" class="text-center mb-4 mb-lg-0">
+               <img src="images/img.png" alt="logo" class="logo rounded-circle img-fluid" style="height: 250px; width: 300px;">
+           </div>
+           <div class="p-2 mx-4 flex-grow-1" id="intro">
+               <h2 class="intro_head">Hi, I'm Tafsirul Islam Shafin!</h2>
+               <p class="intro_body">
+                   I'm a university student passionate about coding and bringing ideas to life through projects. I have experience in IoT and software development and a strong interest in robotics and software solutions. I'm always eager to learn and explore new technologies to enhance my skills and contribute meaningfully.
+               </p>
            </div>
        </div>
    </div>
 
-   <div class="container d-flex justify-content-center">
+   <div class="container mt-5">
        <div class="education">
            <h2 class="heaLine">
                <i class="fa-solid fa-building-columns"></i>
                Academic Background:
                <hr>
            </h2>
-           <div class="education_instution" id="school">
-               <i class="fa-solid fa-graduation-cap"></i>
-               <p>School:</p> <div class="edu">Adamjee Cantonment Public School</div>
+           <div class="education_instution d-flex align-items-center mb-3" id="school">
+               <i class="fa-solid fa-graduation-cap me-3"></i>
+               <p class="mb-0">School: <span class="edu">Adamjee Cantonment Public School</span></p>
            </div>
-           <div class="education_instution" id="college">
-               <i class="fa-solid fa-graduation-cap"></i>
-               <p>College:</p>  <span class="edu">Adamjee Cantonment College</span>
+           <div class="education_instution d-flex align-items-center mb-3" id="college">
+               <i class="fa-solid fa-graduation-cap me-3"></i>
+               <p class="mb-0">College: <span class="edu">Adamjee Cantonment College</span></p>
            </div>
-           <div class="education_instution" id="university">
-               <i class="fa-solid fa-graduation-cap"></i>
-               <p>University:</p><span class="edu">American International University-Bangladesh</span>
+           <div class="education_instution d-flex align-items-center" id="university">
+               <i class="fa-solid fa-graduation-cap me-3"></i>
+               <p class="mb-0">University: <span class="edu">American International University-Bangladesh</span></p>
            </div>
        </div>
    </div>
 
-   <div class="container " id="skillS">
+   <div class="container mt-5">
          <div class="skills">
               <h2 class="">
                 <i class="fa-solid fa-tools"></i>
                 Skills:
                 <hr>
               </h2>
-              <div class="d-flex bd-highlight" id="skill">
-                <i class="fa-solid fa-code mt-1" ></i>
-                <p>Programming languages:</p>
-                <div class="">C, C++, Python, Java, JavaScript, HTML, CSS, PHP</div>
+              <div class="d-flex flex-column flex-lg-row mb-3" id="skill">
+                <i class="fa-solid fa-code me-3"></i>
+                <p class="mb-0">Programming languages: <span>C, C++, Python, Java, JavaScript, HTML, CSS, PHP</span></p>
               </div>
-              <div class="d-flex bd-highlight" id="skill">
-                <i class="fa-solid fa-code mt-1" ></i>
-                <p>FrameWork:</p>
-                <div class="">Flutter, NextJS, NestJs, Django</div>
+              <div class="d-flex flex-column flex-lg-row mb-3" id="skill">
+                <i class="fa-solid fa-code me-3"></i>
+                <p class="mb-0">Frameworks: <span>Flutter, NextJS, NestJS, Django</span></p>
               </div>
-              <div class="d-flex bd-highlight" id="skill">
-                <i class="fa-solid fa-database"></i>
-                <p>Database:</p>
-                <div class="">SQL, Firebase</div>
+              <div class="d-flex flex-column flex-lg-row mb-3" id="skill">
+                <i class="fa-solid fa-database me-3"></i>
+                <p class="mb-0">Database: <span>SQL, Firebase</span></p>
               </div>
-                <div class="d-flex bd-highlight" id="skill">
-                    <i class="fa-solid fa-cogs mt-1" ></i>
-                    <p>Tools:</p>
-                    <div class="">Git, GitHub, VS Code, Arduino IDE, Android Studio</div>
-                </div>
-              <div class="d-flex bd-highlight" id="skill">
-                <i class="fa-solid fa-pen-nib mt-1" ></i>
-                <p>Design:</p>
-                <div class="">Figma, Adobe Illutator, Adobe Photoshop</div>
+              <div class="d-flex flex-column flex-lg-row mb-3" id="skill">
+                <i class="fa-solid fa-cogs me-3"></i>
+                <p class="mb-0">Tools: <span>Git, GitHub, VS Code, Arduino IDE, Android Studio</span></p>
+              </div>
+              <div class="d-flex flex-column flex-lg-row" id="skill">
+                <i class="fa-solid fa-pen-nib me-3"></i>
+                <p class="mb-0">Design: <span>Figma, Adobe Illustrator, Adobe Photoshop</span></p>
               </div>
          </div>
    </div>
 
-
-   <div class="container" id="skillS">
+   <div class="container mt-5" id="skillS">
          <div class="projects">
               <h2 class="heaLine">
                 <i class="fa-solid fa-project-diagram"></i>
@@ -94,12 +89,11 @@
          </div>
    </div>
 
-
-   <div class=" d-flex bd-highlight justify-content-center" id="footer">
+   <div class="d-flex justify-content-center " id="footer" >
       <i class="fa-regular fa-copyright mt-1 px-2"></i>
-        <p>2025 insomnia.github.io</p>
-        <div class="vr"></div>
-        All rights reserved.
+      <p class="mb-0">2025 insomnia.github.io</p>
+      <div class="vr mx-3"></div>
+      <p class="mb-0">All rights reserved.</p>
    </div>
 
    <script src="script.js"></script>
